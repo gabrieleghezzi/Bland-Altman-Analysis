@@ -33,7 +33,7 @@ For each trial (or group of trials, by experimental condition), the script:
 ## How to Run
 
 1. Download or clone this repository.
-2. First, run `IKD_ID_Torques_Validation.mlx` (you can find the .mlx files in the another repository) 
+2. First, run `IKD_ID_Torques_Validation.mlx` (you can find the .mlx file in the "IKD-ID-Ankle-Torque-Validation-HUS" repository) 
    to generate the required variables in the workspace.
 3. Open `Bland_Altman_Analysis.mlx` in MATLAB and run it section by section.
 
