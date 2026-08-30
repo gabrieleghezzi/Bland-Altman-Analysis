@@ -33,13 +33,9 @@ For each trial (or group of trials, by experimental condition), the script:
 ## How to Run
 
 1. Download or clone this repository.
-2. Open `Bland_Altman_Analysis.mlx` in MATLAB.
-3. Load the required workspace files:
-   - `IKD_Torque_Data.mat` — dynamometer (IKD) torque values
-   - `Force_LeverArm_Trials1-4.mat` — force and lever-arm data for trials 1–4
-   - `Force_LeverArm_Trials5-8.mat` — force and lever-arm data for trials 5–8
-4. Run the script section by section (organized by trial/condition, followed 
-   by a combined subplot summary across all four conditions).
+2. First, run `IKD_ID_Torques_Validation.mlx` (you can find the .mlx files in the another repository) 
+   to generate the required variables in the workspace.
+3. Open `Bland_Altman_Analysis.mlx` in MATLAB and run it section by section.
 
 Alternatively, open `Bland_Altman_Analysis.html` to view the rendered output 
 without running MATLAB.
